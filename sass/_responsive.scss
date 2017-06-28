@@ -1,0 +1,443 @@
+@media only screen and (max-width: 480px) {
+
+  html {
+    body {
+
+      /*
+            div#top1{
+              width:100%;
+              height:60px;
+            }
+            div#top2{
+              display:none;
+            }
+            div#top3{
+              display:none;
+            }
+            img#nostrum{
+              top:30px;
+              left:5%;
+              width:50px;
+              height:90%;
+            }
+          //drop down
+          div#dropdown {
+            position: relative;
+            display: inline-block;
+            top:-70px;
+            left:75%;
+            font-size:140%;
+          }
+          div#dropdown-content {
+            display: none;
+            position: absolute;
+            color: rgb(31, 62, 102);
+            background-color: white;
+            min-width: 100px;
+            z-index: 1;
+          }
+          div#dropdown:hover
+
+          div#dropdown-content {
+            display: block;
+          }
+          p#select1{
+          padding:5px;
+
+          }
+          p#select2{
+          padding:5px;
+          }
+          p#select3{
+          padding:5px;
+          }
+
+      //end of dropdown
+
+          div#div-mid1{
+            width:100%;
+            float:left;
+            }
+          div#div-mid2{
+            width:100%;
+            float:left;
+          }
+          section#section-mid{
+
+          }
+          header#header-mid {
+            font-size: 185%;
+            left: 10%;
+            width: 120%;
+            top:50px;
+          }
+          header#header-mid2 {
+            font-size: 185%;
+            left: 10%;
+            width: 100%;
+            top:90px;
+          }
+          p#p-mid{
+            top: 140px;
+            left: 10%;
+            height: 35px;
+            width: 100%;
+            font-size: 180%;
+          }
+          p#p-mid2{
+            top: 170px;
+            left: 10%;
+            height: 35px;
+            width: 60%;
+            font-size: 180%;
+          }
+            div#div-mid2 {
+            display: none;
+            }
+            img#blackdevice{
+            display:none;
+          }
+
+
+          }
+      */
+
+      /*LOGO*/
+
+
+
+
+      div#headerLogo {
+        div#top1 {
+          position: relative;
+          height: 120px;
+          width: 100%;
+        }
+        img#nostrum {
+          top:30px;
+          left: 7%;
+          width:165px;
+        }
+        div#top2{
+          display:none;
+        }
+        div#top3{
+          display:none;
+        }
+      }
+      //drop down
+
+      div#dropdown {
+        position: relative;
+        display: inline-block;
+        top: -70px;
+        left: 70%;
+        font-size: 140%;
+      }
+      div#dropdown-content {
+        display: none;
+        position: absolute;
+        color: rgb(31, 62, 102);
+        background-color: white;
+        min-width: 100px;
+        z-index: 1;
+      }
+      div#dropdown:hover
+
+      div#dropdown-content {
+        display: block;
+      }
+      p#select1{
+        padding:5px;
+      }
+      p#select2{
+        padding:5px;
+      }
+      p#select3{
+        padding:5px;
+      }
+
+      //end of dropdown
+
+      /*HERO SECTION*/
+      div#hero {
+      top:-22px;
+
+        div#heroContent {
+
+
+          div#heroImage {
+
+            width: 100%;
+
+            img#blackdevice {
+              width:23em;
+              margin-left: 26px;
+            }
+          }
+          div#heroCaption {
+           width: 98%;
+
+            span#heroTitle {
+              color:white;
+            }
+            p#heroDescription {
+              color:white;
+            }
+            div#heroButton {
+              margin-top: 30px;
+              button {
+                font-family: "Gotham";
+                border: none;
+                color: white;
+                border-radius: 10px;
+                background-color: #56bb42;
+                font-size: 160%;
+                padding: 11px 3%;
+              }
+            }
+          }
+
+        }
+      }
+
+      /*SERVICES*/
+      div#services {
+        position: relative;
+        background-color: rgb(228, 228, 228);
+        top:-22px;
+        padding: 24px 8%;
+        ul {
+          display: flex;
+          li {
+            color: #1f3e66;
+            img {
+              float: left;
+              width: 20%;
+            }
+            span {
+              line-height: 25px;
+              display: table;
+              padding: 0 9% 0 4%;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+
+      /*FEATURED PHONE*/
+      div#featuredPhone {
+        top:-22px;
+
+        div#featuredContent {
+
+
+          div#featuredImage {
+            width: 100%;
+            float: left;
+            margin-left: 2px;
+            img#iphone7 {
+              width: 15.5em;
+              padding-left: 45px;
+            }
+          }
+          div#featuredCaption {
+            width: 102%;
+            span#featuredPhoneTitle {
+              line-height: 30px;
+              font-size: 210%;
+              font-family: Myriad Pro;
+            }
+            p#featuredPhoneDescription {
+              line-height: 27px;
+              font-size: 120%;
+              font-family: GothamBook;
+
+            }
+          }
+          div#featuredButton {
+            margin-top: 25px;
+            margin-left:40px;
+          }
+          button#featuredButton1 {
+            margin-top: 0px;
+            margin-left: 40px;
+
+          }
+
+        }
+      }
+
+      div#container5 {
+        //  border:1px solid red;
+        position: relative;
+        background-color: white;
+        top: 0;
+        width: 100%;
+        height: 350px;
+      }
+      header#header-bottom2 {
+        //      border:1px solid red;
+        top: 50px;
+        width: 65%;
+        left: 14%;
+      }
+
+      section#section-mid4 {
+        position: relative;
+        width: 25%;
+        height: 250px;
+        top: 100px;
+      }
+      img#phone {
+        position: absolute;
+        top: 0;
+        left: 55%;
+      }
+
+      div#div-bottom1 {
+        position: relative;
+        height: 250px;
+        top: -152px;
+        width: 30%;
+        left: 26%;
+        color: rgb(31, 62, 102);
+      }
+
+      img#wifi2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      p#b1 {
+        padding-left: 40px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        position: absolute;
+        font-family: GothamBook;
+        background-color: rgb(228, 228, 228);
+        font-size: 105%;
+        width: 55%;
+        left: 12%;
+        top: 10px;
+      }
+      img#connect2 {
+        position: absolute;
+        top: 90px;
+        left: 0;
+      }
+      p#b2 {
+        padding-left: 40px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        position: absolute;
+        font-family: GothamBook;
+        background-color: rgb(228, 228, 228);
+        font-size: 105%;
+        width: 55%;
+        left: 12%;
+        top: 100px;
+      }
+      img#message2 {
+        position: absolute;
+        top: 180px;
+        left: 0;
+      }
+
+      p#b3 {
+        padding-left: 40px;
+        padding-top: 8px;
+        padding-right: 20px;
+        padding-bottom: 8px;
+        position: absolute;
+        font-family: GothamBook;
+        background-color: rgb(228, 228, 228);
+        font-size: 105%;
+        width: 55%;
+        left: 12%;
+        top: 190px;
+      }
+
+      section#section-bottom {
+        position: relative;
+        width: 39%;
+        height: 350px;
+        top: -500px;
+        left: 52.5%;
+      }
+
+      div#div-down1 {
+        background-color: rgb(31, 62, 102);
+        position: relative;
+        font-family: GothamBook;
+        font-size: 130%;
+        font-style: bold;
+        border-radius: 0 0 10px 10px;
+        left: 2.5%;
+        top: 85px;
+        height: 260px;
+        width: 85%;
+      }
+      button#tab-button1 {
+        position: absolute;
+        padding-top: 10px;
+        background-color: rgb(31, 62, 102);
+        color: white;
+        border: none;
+        font-family: GothamBook;
+        font-size: 110%;
+        border-radius: 10px 10px 0 0;
+        left: 0;
+        top: -45px;
+        height: 45px;
+        width: 51%;
+
+      }
+      button#tab-button2 {
+        position: absolute;
+        padding-top: 5px;
+        background-color: rgb(248, 175, 70);
+        color: white;
+        border: none;
+        font-family: GothamBook;
+        font-size: 110%;
+        border-radius: 0 10px 0 0;
+        left: 49%;
+        top: -45px;
+        height: 45px;
+        width: 51%;
+      }
+
+      div#div-down2 {
+        position: relative;
+      }
+      div#div-down3 {
+        position: relative;
+      }
+      input#tab-input1 {
+        top: -140px;
+      }
+      input#tab-input2 {
+        top: -60px;
+      }
+      button#tab-button3 {
+        position: absolute;
+        color: white;
+        border: none;
+        background-color: rgb(86, 187, 66);
+        font-family: Gotham;
+        font-size: 140%;
+        font-style: bold;
+        border-radius: 10px;
+        left: 39%;
+        top: 275px;
+        height: 50px;
+        width: 40%;
+      }
+
+    }
+  }
+
+}

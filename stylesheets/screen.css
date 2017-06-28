@@ -1,0 +1,909 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+}
+
+/* line 1, ../sass/_input.scss */
+input {
+  position: absolute;
+  padding-left: 3%;
+  border: none;
+  font-size: 150%;
+  background-color: #e4e4e4;
+  width: 67.5%;
+  height: 50px;
+  left: 10%;
+  border-radius: 10px;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  position: absolute;
+  font-size: 260%;
+  color: #1f3e66;
+  font-family: Myriad Pro;
+}
+
+/* line 1, ../sass/_a.scss */
+a {
+  position: absolute;
+  top: 45px;
+  width: 15%;
+  font-size: 160%;
+  text-align: center;
+}
+
+/* line 15, ../sass/screen.scss */
+html body {
+  font-family: "GothamBook";
+  color: white;
+  background-color: white;
+  /*LOGO*/
+  /*HERO SECTION*/
+  /*SERVICES*/
+  /*FEATURED PHONE*/
+  /*
+      section#section-bottom{
+        position:relative;
+        width: 39%;
+        height:350px;
+        top:-500px;
+        left:52.5%;
+      }
+  
+      div#div-down1 {
+        background-color: rgb(31, 62, 102);
+        position: relative;
+        font-family: GothamBook;
+        font-size: 130%;
+        font-style: bold;
+        border-radius: 0 0 10px 10px;
+        left: 2.5%;
+        top: 85px;
+        height: 260px;
+        width: 85%;
+      }
+        button#tab-button1{
+          position: absolute;
+          padding-top:10px;
+          background-color: rgb(31,62,102);
+          color:white;
+          border:none;
+          font-family: GothamBook;
+          font-size: 110%;
+          border-radius: 10px 10px 0 0;
+          left:0;
+          top:-45px;
+          height:45px;
+          width:51%;
+  
+        }
+        button#tab-button2{
+          position: absolute;
+          padding-top:5px;
+          background-color: rgb(248,175,70);
+          color:white;
+          border:none;
+          font-family: GothamBook;
+          font-size: 110%;
+          border-radius: 0 10px 0 0;
+          left:49%;
+          top:-45px;
+          height:45px;
+          width:51%;
+        }
+  
+      div#div-down2{
+        position: relative;
+      }
+      div#div-down3{
+        position: relative;
+      }
+      input#tab-input1{
+        top:-140px;
+      }
+      input#tab-input2{
+        top:-60px;
+      }
+      button#tab-button3{
+        position: absolute;
+        color:white;
+        border:none;
+        background-color: rgb(86,187,66);
+        font-family: Gotham;
+        font-size: 140%;
+        font-style: bold;
+        border-radius: 10px;
+        left:39%;
+        top:275px;
+        height:50px;
+        width:40%;
+        }
+  */
+}
+/* line 20, ../sass/screen.scss */
+html body div#headerLogo {
+  position: relative;
+  background-color: #1f3e66;
+  top: 0;
+  width: 100%;
+  height: 120px;
+}
+/* line 28, ../sass/screen.scss */
+html body div#headerLogo div#top1 {
+  position: relative;
+  height: 120px;
+  width: 20%;
+}
+/* line 33, ../sass/screen.scss */
+html body div#headerLogo img#nostrum {
+  position: absolute;
+  top: 30px;
+  left: 40%;
+  width: 65%;
+}
+/* line 40, ../sass/screen.scss */
+html body div#headerLogo div#top2 {
+  position: relative;
+  top: -122px;
+  left: 20.5%;
+  width: 50%;
+  height: 120px;
+}
+/* line 47, ../sass/screen.scss */
+html body div#headerLogo a#top-link1 {
+  left: 20%;
+}
+/* line 51, ../sass/screen.scss */
+html body div#headerLogo a#top-link2 {
+  left: 40%;
+}
+/* line 55, ../sass/screen.scss */
+html body div#headerLogo a#top-link3 {
+  left: 60%;
+}
+/* line 59, ../sass/screen.scss */
+html body div#headerLogo div#top3 {
+  position: relative;
+  left: 70.75%;
+  top: -244px;
+  width: 29%;
+  height: 100%;
+}
+/* line 66, ../sass/screen.scss */
+html body div#headerLogo img#magg {
+  position: absolute;
+  top: 47px;
+  width: 6%;
+  left: -35px;
+}
+/* line 72, ../sass/screen.scss */
+html body div#headerLogo input#search-text-input {
+  padding-left: 12.5%;
+  text-align: left;
+  border: 2.5px solid white;
+  font-size: 150%;
+  background-color: transparent;
+  border-radius: 0;
+  width: 63%;
+  height: 37.5px;
+  left: -11.5%;
+  top: 37.5px;
+  color: white;
+}
+/* line 85, ../sass/screen.scss */
+html body div#headerLogo ::-webkit-input-placeholder {
+  color: white;
+}
+/* line 91, ../sass/screen.scss */
+html body div#dropdown {
+  display: none;
+}
+/* line 95, ../sass/screen.scss */
+html body div#hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("skyline-buildings-new-york-skyscrapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 103, ../sass/screen.scss */
+html body div#hero div#heroContent {
+  padding: 7% 14%;
+  position: relative;
+  background: rgba(196, 234, 255, 0.17);
+}
+/* line 108, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroImage {
+  width: 30%;
+  float: right;
+  margin-right: 14.5%;
+}
+/* line 112, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroImage img#blackdevice {
+  width: 27em;
+}
+/* line 116, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroCaption {
+  width: 62%;
+}
+/* line 118, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroCaption span#heroTitle {
+  line-height: 48.5px;
+  color: #1f3e66;
+  font-family: "GothamBook";
+  font-size: 34px;
+  font-weight: bold;
+}
+/* line 125, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroCaption p#heroDescription {
+  line-height: 45px;
+  font-size: 30px;
+  color: #1F3E64;
+  padding-right: 15%;
+}
+/* line 131, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroCaption #heroButton {
+  margin-top: 30px;
+}
+/* line 133, ../sass/screen.scss */
+html body div#hero div#heroContent div#heroCaption #heroButton button {
+  font-family: "Gotham";
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: #56bb42;
+  font-size: 160%;
+  padding: 11px 3%;
+}
+/* line 149, ../sass/screen.scss */
+html body div#services {
+  position: relative;
+  background-color: #e4e4e4;
+  padding: 24px 8%;
+}
+/* line 153, ../sass/screen.scss */
+html body div#services ul {
+  display: flex;
+}
+/* line 155, ../sass/screen.scss */
+html body div#services ul li {
+  color: #1f3e66;
+}
+/* line 157, ../sass/screen.scss */
+html body div#services ul li img {
+  float: left;
+  width: 20%;
+}
+/* line 161, ../sass/screen.scss */
+html body div#services ul li span {
+  line-height: 25px;
+  display: table;
+  padding: 0 9% 0 4%;
+  font-size: 18.5px;
+}
+/* line 172, ../sass/screen.scss */
+html body div#featuredPhone {
+  position: relative;
+  border: 1px solid red;
+  width: 100%;
+}
+/* line 177, ../sass/screen.scss */
+html body div#featuredContent {
+  position: relative;
+  padding: 2% 14%;
+  color: #1f3e66;
+}
+/* line 182, ../sass/screen.scss */
+html body div#featuredContent div#featuredImage {
+  width: 29%;
+  float: left;
+  margin-left: 2px;
+}
+/* line 186, ../sass/screen.scss */
+html body div#featuredContent div#featuredImage img#iphone7 {
+  width: 15.5em;
+}
+/* line 190, ../sass/screen.scss */
+html body div#featuredContent div#featuredCaption {
+  width: 95%;
+}
+/* line 192, ../sass/screen.scss */
+html body div#featuredContent div#featuredCaption span#featuredPhoneTitle {
+  line-height: 48px;
+  font-size: 230%;
+  font-family: Myriad Pro;
+}
+/* line 197, ../sass/screen.scss */
+html body div#featuredContent div#featuredCaption p#featuredPhoneDescription {
+  line-height: 27px;
+  font-size: 137%;
+  font-family: GothamBook;
+}
+/* line 206, ../sass/screen.scss */
+html body div#featuredContent div#featuredButton button#featuredButton1 {
+  font-family: "Gotham";
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #56bb42;
+  font-size: 165%;
+  padding: 11px 3%;
+  margin-top: 25px;
+}
+/* line 220, ../sass/screen.scss */
+html body div#signup {
+  width: 100%;
+  color: #1F3E64;
+}
+/* line 225, ../sass/screen.scss */
+html body div#title-head {
+  margin-top: 30px;
+  margin-left: 14%;
+  font-family: Myriad Pro;
+}
+/* line 230, ../sass/screen.scss */
+html body span#title {
+  font-size: 239%;
+}
+/* line 234, ../sass/screen.scss */
+html body div#blackphone {
+  width: 24%;
+  border: 1px solid black;
+}
+/* line 238, ../sass/screen.scss */
+html body div#blackphone img#phone {
+  margin-top: 18px;
+  margin-left: 180px;
+}
+/* line 246, ../sass/screen.scss */
+html body div#list {
+  position: relative;
+  margin-top: 20px;
+}
+/* line 250, ../sass/screen.scss */
+html body div#list ul#list-below {
+  float: right;
+  margin-top: -270px;
+  margin-right: 520px;
+  width: 310px;
+  border: 1px solid red;
+}
+/* line 260, ../sass/screen.scss */
+html body div#list ul#list-below li#list-wifi img#wifi2 {
+  float: left;
+}
+/* line 262, ../sass/screen.scss */
+html body div#list ul#list-below li#list-wifi img#wifi2 span#list1 {
+  display: table;
+  float: right;
+}
+/* line 270, ../sass/screen.scss */
+html body div#list ul#list-below li#list-connect img#connnect2 {
+  float: left;
+}
+/* line 275, ../sass/screen.scss */
+html body div#list ul#list-below li#list-message img#message2 {
+  float: left;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 4, ../sass/_responsive.scss */
+  html body {
+      /*
+            div#top1{
+              width:100%;
+              height:60px;
+            }
+            div#top2{
+              display:none;
+            }
+            div#top3{
+              display:none;
+            }
+            img#nostrum{
+              top:30px;
+              left:5%;
+              width:50px;
+              height:90%;
+            }
+          //drop down
+          div#dropdown {
+            position: relative;
+            display: inline-block;
+            top:-70px;
+            left:75%;
+            font-size:140%;
+          }
+          div#dropdown-content {
+            display: none;
+            position: absolute;
+            color: rgb(31, 62, 102);
+            background-color: white;
+            min-width: 100px;
+            z-index: 1;
+          }
+          div#dropdown:hover
+
+          div#dropdown-content {
+            display: block;
+          }
+          p#select1{
+          padding:5px;
+
+          }
+          p#select2{
+          padding:5px;
+          }
+          p#select3{
+          padding:5px;
+          }
+
+      //end of dropdown
+
+          div#div-mid1{
+            width:100%;
+            float:left;
+            }
+          div#div-mid2{
+            width:100%;
+            float:left;
+          }
+          section#section-mid{
+
+          }
+          header#header-mid {
+            font-size: 185%;
+            left: 10%;
+            width: 120%;
+            top:50px;
+          }
+          header#header-mid2 {
+            font-size: 185%;
+            left: 10%;
+            width: 100%;
+            top:90px;
+          }
+          p#p-mid{
+            top: 140px;
+            left: 10%;
+            height: 35px;
+            width: 100%;
+            font-size: 180%;
+          }
+          p#p-mid2{
+            top: 170px;
+            left: 10%;
+            height: 35px;
+            width: 60%;
+            font-size: 180%;
+          }
+            div#div-mid2 {
+            display: none;
+            }
+            img#blackdevice{
+            display:none;
+          }
+
+
+          }
+      */
+    /*LOGO*/
+    /*HERO SECTION*/
+    /*SERVICES*/
+    /*FEATURED PHONE*/
+  }
+  /* line 111, ../sass/_responsive.scss */
+  html body div#headerLogo div#top1 {
+    position: relative;
+    height: 120px;
+    width: 100%;
+  }
+  /* line 116, ../sass/_responsive.scss */
+  html body div#headerLogo img#nostrum {
+    top: 30px;
+    left: 7%;
+    width: 165px;
+  }
+  /* line 121, ../sass/_responsive.scss */
+  html body div#headerLogo div#top2 {
+    display: none;
+  }
+  /* line 124, ../sass/_responsive.scss */
+  html body div#headerLogo div#top3 {
+    display: none;
+  }
+  /* line 130, ../sass/_responsive.scss */
+  html body div#dropdown {
+    position: relative;
+    display: inline-block;
+    top: -70px;
+    left: 70%;
+    font-size: 140%;
+  }
+  /* line 137, ../sass/_responsive.scss */
+  html body div#dropdown-content {
+    display: none;
+    position: absolute;
+    color: #1f3e66;
+    background-color: white;
+    min-width: 100px;
+    z-index: 1;
+  }
+  /* line 145, ../sass/_responsive.scss */
+  html body div#dropdown:hover
+  div#dropdown-content {
+    display: block;
+  }
+  /* line 150, ../sass/_responsive.scss */
+  html body p#select1 {
+    padding: 5px;
+  }
+  /* line 153, ../sass/_responsive.scss */
+  html body p#select2 {
+    padding: 5px;
+  }
+  /* line 156, ../sass/_responsive.scss */
+  html body p#select3 {
+    padding: 5px;
+  }
+  /* line 163, ../sass/_responsive.scss */
+  html body div#hero {
+    top: -22px;
+  }
+  /* line 169, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroImage {
+    width: 100%;
+  }
+  /* line 173, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroImage img#blackdevice {
+    width: 23em;
+    margin-left: 26px;
+  }
+  /* line 178, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroCaption {
+    width: 98%;
+  }
+  /* line 181, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroCaption span#heroTitle {
+    color: white;
+  }
+  /* line 184, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroCaption p#heroDescription {
+    color: white;
+  }
+  /* line 187, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroCaption div#heroButton {
+    margin-top: 30px;
+  }
+  /* line 189, ../sass/_responsive.scss */
+  html body div#hero div#heroContent div#heroCaption div#heroButton button {
+    font-family: "Gotham";
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #56bb42;
+    font-size: 160%;
+    padding: 11px 3%;
+  }
+  /* line 205, ../sass/_responsive.scss */
+  html body div#services {
+    position: relative;
+    background-color: #e4e4e4;
+    top: -22px;
+    padding: 24px 8%;
+  }
+  /* line 210, ../sass/_responsive.scss */
+  html body div#services ul {
+    display: flex;
+  }
+  /* line 212, ../sass/_responsive.scss */
+  html body div#services ul li {
+    color: #1f3e66;
+  }
+  /* line 214, ../sass/_responsive.scss */
+  html body div#services ul li img {
+    float: left;
+    width: 20%;
+  }
+  /* line 218, ../sass/_responsive.scss */
+  html body div#services ul li span {
+    line-height: 25px;
+    display: table;
+    padding: 0 9% 0 4%;
+    font-size: 18px;
+  }
+  /* line 229, ../sass/_responsive.scss */
+  html body div#featuredPhone {
+    top: -22px;
+  }
+  /* line 235, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredImage {
+    width: 100%;
+    float: left;
+    margin-left: 2px;
+  }
+  /* line 239, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredImage img#iphone7 {
+    width: 15.5em;
+    padding-left: 45px;
+  }
+  /* line 244, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredCaption {
+    width: 102%;
+  }
+  /* line 246, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredCaption span#featuredPhoneTitle {
+    line-height: 30px;
+    font-size: 210%;
+    font-family: Myriad Pro;
+  }
+  /* line 251, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredCaption p#featuredPhoneDescription {
+    line-height: 27px;
+    font-size: 120%;
+    font-family: GothamBook;
+  }
+  /* line 258, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent div#featuredButton {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  /* line 262, ../sass/_responsive.scss */
+  html body div#featuredPhone div#featuredContent button#featuredButton1 {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  /* line 271, ../sass/_responsive.scss */
+  html body div#container5 {
+    position: relative;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    height: 350px;
+  }
+  /* line 279, ../sass/_responsive.scss */
+  html body header#header-bottom2 {
+    top: 50px;
+    width: 65%;
+    left: 14%;
+  }
+  /* line 286, ../sass/_responsive.scss */
+  html body section#section-mid4 {
+    position: relative;
+    width: 25%;
+    height: 250px;
+    top: 100px;
+  }
+  /* line 292, ../sass/_responsive.scss */
+  html body img#phone {
+    position: absolute;
+    top: 0;
+    left: 55%;
+  }
+  /* line 298, ../sass/_responsive.scss */
+  html body div#div-bottom1 {
+    position: relative;
+    height: 250px;
+    top: -152px;
+    width: 30%;
+    left: 26%;
+    color: #1f3e66;
+  }
+  /* line 307, ../sass/_responsive.scss */
+  html body img#wifi2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  /* line 312, ../sass/_responsive.scss */
+  html body p#b1 {
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    position: absolute;
+    font-family: GothamBook;
+    background-color: #e4e4e4;
+    font-size: 105%;
+    width: 55%;
+    left: 12%;
+    top: 10px;
+  }
+  /* line 325, ../sass/_responsive.scss */
+  html body img#connect2 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+  }
+  /* line 330, ../sass/_responsive.scss */
+  html body p#b2 {
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    position: absolute;
+    font-family: GothamBook;
+    background-color: #e4e4e4;
+    font-size: 105%;
+    width: 55%;
+    left: 12%;
+    top: 100px;
+  }
+  /* line 343, ../sass/_responsive.scss */
+  html body img#message2 {
+    position: absolute;
+    top: 180px;
+    left: 0;
+  }
+  /* line 349, ../sass/_responsive.scss */
+  html body p#b3 {
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    position: absolute;
+    font-family: GothamBook;
+    background-color: #e4e4e4;
+    font-size: 105%;
+    width: 55%;
+    left: 12%;
+    top: 190px;
+  }
+  /* line 363, ../sass/_responsive.scss */
+  html body section#section-bottom {
+    position: relative;
+    width: 39%;
+    height: 350px;
+    top: -500px;
+    left: 52.5%;
+  }
+  /* line 371, ../sass/_responsive.scss */
+  html body div#div-down1 {
+    background-color: #1f3e66;
+    position: relative;
+    font-family: GothamBook;
+    font-size: 130%;
+    font-style: bold;
+    border-radius: 0 0 10px 10px;
+    left: 2.5%;
+    top: 85px;
+    height: 260px;
+    width: 85%;
+  }
+  /* line 383, ../sass/_responsive.scss */
+  html body button#tab-button1 {
+    position: absolute;
+    padding-top: 10px;
+    background-color: #1f3e66;
+    color: white;
+    border: none;
+    font-family: GothamBook;
+    font-size: 110%;
+    border-radius: 10px 10px 0 0;
+    left: 0;
+    top: -45px;
+    height: 45px;
+    width: 51%;
+  }
+  /* line 398, ../sass/_responsive.scss */
+  html body button#tab-button2 {
+    position: absolute;
+    padding-top: 5px;
+    background-color: #f8af46;
+    color: white;
+    border: none;
+    font-family: GothamBook;
+    font-size: 110%;
+    border-radius: 0 10px 0 0;
+    left: 49%;
+    top: -45px;
+    height: 45px;
+    width: 51%;
+  }
+  /* line 413, ../sass/_responsive.scss */
+  html body div#div-down2 {
+    position: relative;
+  }
+  /* line 416, ../sass/_responsive.scss */
+  html body div#div-down3 {
+    position: relative;
+  }
+  /* line 419, ../sass/_responsive.scss */
+  html body input#tab-input1 {
+    top: -140px;
+  }
+  /* line 422, ../sass/_responsive.scss */
+  html body input#tab-input2 {
+    top: -60px;
+  }
+  /* line 425, ../sass/_responsive.scss */
+  html body button#tab-button3 {
+    position: absolute;
+    color: white;
+    border: none;
+    background-color: #56bb42;
+    font-family: Gotham;
+    font-size: 140%;
+    font-style: bold;
+    border-radius: 10px;
+    left: 39%;
+    top: 275px;
+    height: 50px;
+    width: 40%;
+  }
+}

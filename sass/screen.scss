@@ -1,0 +1,372 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+@import "footer";
+@import "input";
+@import "header";
+@import "a";
+
+html{
+  body{
+    font-family:"GothamBook";
+    color: white;
+    background-color:white;
+/*LOGO*/
+    div#headerLogo {
+
+      position: relative;
+      background-color: rgb(31, 62, 102);
+      top: 0;
+      width: 100%;
+      height: 120px;
+
+    div#top1{
+      position: relative;
+      height: 120px;
+      width: 20%;
+    }
+    img#nostrum{
+      position: absolute;
+      top:30px;
+      left:40%;
+      width:65%;
+     // height: 50%;
+    }
+    div#top2{
+      position:relative;
+      top:-122px;
+      left: 20.5%;
+      width:50%;
+      height: 120px;
+    }
+      a#top-link1{
+        left:20%;
+      }
+
+      a#top-link2{
+        left:40%;
+      }
+
+      a#top-link3{
+        left:60%;
+     }
+
+      div#top3 {
+        position: relative;
+        left: 70.75%;
+        top: -244px;
+        width: 29%;
+        height: 100%;
+      }
+    img#magg{
+      position: absolute;
+      top:47px;
+      width: 6%;
+      left:-35px;
+    }
+    input#search-text-input {
+      padding-left: 12.5%;
+      text-align: left;
+      border: 2.5px solid white;
+      font-size: 150%;
+      background-color: transparent;
+      border-radius: 0;
+      width: 63%;
+      height:37.5px;
+      left: -11.5%;
+      top: 37.5px;
+      color:white;
+    }
+      ::-webkit-input-placeholder{
+        color:white;
+
+    }
+    }
+
+    div#dropdown{
+      display:none;
+    }
+/*HERO SECTION*/
+div#hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("skyline-buildings-new-york-skyscrapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    div#heroContent {
+      padding: 7% 14%;
+      position: relative;
+      background: rgba(196, 234, 255, 0.17);
+
+      div#heroImage{
+        width: 30%;
+        float: right;
+        margin-right: 14.5%;
+        img#blackdevice {
+          width: 27em;
+        }
+      }
+      div#heroCaption{
+        width: 62%;
+        span#heroTitle{
+          line-height: 48.5px;
+          color: #1f3e66;
+          font-family: "GothamBook";
+          font-size: 34px;
+          font-weight: bold;
+        }
+      p#heroDescription {
+          line-height: 45px;
+          font-size: 30px;
+          color: #1F3E64;
+          padding-right: 15%;
+         }
+        #heroButton{
+          margin-top: 30px;
+          button{
+            font-family: "Gotham";
+            border: none;
+            color: white;
+            border-radius: 10px;
+            background-color: #56bb42;
+            font-size: 160%;
+            padding: 11px 3%;
+          }
+        }
+      }
+
+    }
+}
+
+/*SERVICES*/
+div#services{
+    position: relative;
+    background-color: rgb(228,228,228);
+    padding: 24px 8%;
+  ul{
+      display: flex;
+      li{
+        color: #1f3e66;
+        img{
+          float: left;
+          width: 20%;
+        }
+        span{
+          line-height: 25px;
+          display: table;
+          padding: 0 9% 0 4%;
+          font-size: 18.5px;
+        }
+      }
+    }
+}
+
+/*FEATURED PHONE*/
+div#featuredPhone{
+    position:relative;
+    border:1px solid red;
+    width: 100%;
+}
+    div#featuredContent {
+      position: relative;
+      padding: 2% 14%;
+      color: #1f3e66;
+
+      div#featuredImage {
+        width: 29%;
+        float: left;
+        margin-left: 2px;
+        img#iphone7 {
+          width: 15.5em;
+        }
+      }
+        div#featuredCaption {
+          width: 95%;
+          span#featuredPhoneTitle {
+            line-height: 48px;
+            font-size: 230%;
+            font-family: Myriad Pro;
+          }
+          p#featuredPhoneDescription {
+            line-height: 27px;
+            font-size: 137%;
+            font-family: GothamBook;
+          }
+        }
+
+div#featuredButton{
+
+      button#featuredButton1 {
+        font-family: "Gotham";
+        border: none;
+        color: white;
+        border-radius: 5px;
+        background-color: #56bb42;
+        font-size: 165%;
+        padding: 11px 3%;
+        margin-top: 25px;
+      }
+      }
+
+    }
+
+div#signup {
+
+    width: 100%;
+    color: #1F3E64;
+}
+    div#title-head{
+      margin-top: 30px;
+      margin-left: 14%;
+      font-family: Myriad Pro;
+    }
+    span#title{
+      font-size: 239%;
+    }
+
+    div#blackphone{
+      width:24%;
+      border:1px solid black;
+
+    img#phone{
+      margin-top: 18px;
+      margin-left: 180px;
+
+    }
+
+    }
+
+div#list{
+position:relative;
+margin-top:20px;
+
+  ul#list-below{
+    float: right;
+    margin-top: -270px;
+    margin-right: 520px;
+    width: 310px;
+    border:1px solid red;
+
+
+    li#list-wifi{
+
+      img#wifi2{
+        float:left;
+        span#list1{
+          display:table;
+          float:right;
+
+        }
+      }
+    }
+    li#list-connect{
+      img#connnect2{
+        float:left;
+      }
+    }
+    li#list-message{
+      img#message2{
+        float:left;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+    section#section-bottom{
+      position:relative;
+      width: 39%;
+      height:350px;
+      top:-500px;
+      left:52.5%;
+    }
+
+    div#div-down1 {
+      background-color: rgb(31, 62, 102);
+      position: relative;
+      font-family: GothamBook;
+      font-size: 130%;
+      font-style: bold;
+      border-radius: 0 0 10px 10px;
+      left: 2.5%;
+      top: 85px;
+      height: 260px;
+      width: 85%;
+    }
+      button#tab-button1{
+        position: absolute;
+        padding-top:10px;
+        background-color: rgb(31,62,102);
+        color:white;
+        border:none;
+        font-family: GothamBook;
+        font-size: 110%;
+        border-radius: 10px 10px 0 0;
+        left:0;
+        top:-45px;
+        height:45px;
+        width:51%;
+
+      }
+      button#tab-button2{
+        position: absolute;
+        padding-top:5px;
+        background-color: rgb(248,175,70);
+        color:white;
+        border:none;
+        font-family: GothamBook;
+        font-size: 110%;
+        border-radius: 0 10px 0 0;
+        left:49%;
+        top:-45px;
+        height:45px;
+        width:51%;
+      }
+
+    div#div-down2{
+      position: relative;
+    }
+    div#div-down3{
+      position: relative;
+    }
+    input#tab-input1{
+      top:-140px;
+    }
+    input#tab-input2{
+      top:-60px;
+    }
+    button#tab-button3{
+      position: absolute;
+      color:white;
+      border:none;
+      background-color: rgb(86,187,66);
+      font-family: Gotham;
+      font-size: 140%;
+      font-style: bold;
+      border-radius: 10px;
+      left:39%;
+      top:275px;
+      height:50px;
+      width:40%;
+      }
+*/
+  }
+}
+@import "responsive";
